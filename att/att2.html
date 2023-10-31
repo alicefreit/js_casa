@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <script>
+        var nome = prompt('Digite seu nome: ');
+        var idade = prompt('Digite sua idade: ');
+
+        document.write('<h3> Bem vindo, ' + nome + '!</h3>');
+
+        if (idade >= 18 && idade <= 64) {
+            document.write("Você já é maior de idade, pode ser preso, CUIDADOO!!! ");
+        }
+
+        else if (idade < 18) {
+            document.write('Puts, é de menor ainda. Sua mãe sabe com o que você está mexendo ???? ');
+        }
+        
+        else if (idade >= 65) {
+            document.write('Opa senhora(senhor), como vai a aposentadoria ??');
+        }
+
+        else {    
+            document.write('Só pode mumero campeão!!!');
+        }
+    </script>
+</body>
+</html>
